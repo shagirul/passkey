@@ -43,9 +43,6 @@ export const cookieSetter = (res, token, set) => {
     })
   );
 };
-export function clearCookie(cookieName) {
-  document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-}
 
 export const generateToken = (_id) => {
   return jwt.sign({ _id }, process.env.JWT_SECRET);
