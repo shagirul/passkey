@@ -96,7 +96,7 @@ function Login() {
                 Password
               </label>
               <div className="bg-gray-50 border focus:border-2  border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-black  w-full    flex ">
-                <input
+                <input maxLength={4}
                   value={password}
                   type={hidepassword ? "password" : "text"}
                   placeholder="••••"
