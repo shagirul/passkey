@@ -164,7 +164,7 @@ export const OTPInput = ({ length = 4, onComplete }) => {
           value={OTP[index]}
           onChange={(e) => handleTextChange(e.target.value, index)}
           ref={(ref) => (inputRef.current[index] = ref)}
-          className={`border-[3px] rounded-xl border-solid border-border-slate-500 focus:border-blue-600  outline-none aspect-square px-6  text-md font-bold`}
+          className={`border-[3px] rounded-xl border-solid border-border-slate-500 focus:border-blue-600  outline-none aspect-square px-2  text-md font-bold`}
         />
       ))}
     </div>
