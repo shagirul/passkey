@@ -159,7 +159,7 @@ export const OTPInput = ({ length = 4, onComplete }) => {
       {Array.from({ length }, (_, index) => (
         <input
           key={index}
-          type="password"
+          type="number"
           maxLength={1}
           value={OTP[index]}
           onChange={(e) => handleTextChange(e.target.value, index)}
