@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React, { useContext, useEffect, useState } from "react";
 import toast from "react-hot-toast";
-import Signin from "../assets/signin.svg";
+import signin from "../assets/signin.svg";
 import Hide from "../assets/hide.svg";
 import Show from "../assets/show.svg";
 
@@ -62,7 +62,7 @@ function Login() {
   return (
     <div className="flex flex-col items-center justify-center   md:h-screen lg:py-0 h-full p-5">
       <div>
-        <Image alt="login" className="aspect-auto px-20" src={Signin}></Image>
+        <Image alt="login" className="aspect-auto px-20" src={signin}></Image>
       </div>
       <div className="w-full bg-white rounded-lg shadow  md:mt-0 sm:max-w-md xl:p-0 ">
         <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
