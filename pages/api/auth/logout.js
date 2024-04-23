@@ -2,6 +2,7 @@ import {
   asyncError,
   errorHandler,
   cookieSetter,
+  clearCookie,
 } from "../../../utils/features";
 
 const handler = asyncError(async (req, res) => {
@@ -9,7 +10,7 @@ const handler = asyncError(async (req, res) => {
     return errorHandler(res, 400, "Only GET Method is allowed");
 
   cookieSetter(res, null, false);
-
+  clearCookie("token");
   res.status(200).json({
     success: true,
     message: `Logged Out Successfully`,

@@ -112,16 +112,7 @@ export function PasswordTile({  Id, title, tileId }) {
             </p>
             <p className="text-sm text-gray-500 truncate ">{Id}</p>
           </Link>
-          {/* <button
-            onClick={HandleHide}
-            className="inline-flex items-center text-base font-semibold text-gray-900 "
-          >
-            {hide ? (
-              <Image alt="Hide" src={Hide} />
-            ) : (
-              <Image alt="Show" src={Show} />
-            )}
-          </button> */}
+       
         </div>
       </div>
     </li>
