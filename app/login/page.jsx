@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React, { useContext, useEffect, useState } from "react";
 import toast from "react-hot-toast";
-import Signin from "../../public/signin.svg";
+import Signin from "../assets/signin.svg";
 import Hide from "../assets/hide.svg";
 import Show from "../assets/show.svg";
 

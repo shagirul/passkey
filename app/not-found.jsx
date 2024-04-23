@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import notFound from "../public/404.svg";
+import notFound from "../app/assets/404.svg";
 import { Homebutton } from "@/components/client";
 
 

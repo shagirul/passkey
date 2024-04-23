@@ -5,7 +5,7 @@ import { cookies } from "next/headers";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import Image from "next/image";
-import AddIcon from "../public/add.svg"
+import AddIcon from "../app/assets/add.svg"
 
 
 

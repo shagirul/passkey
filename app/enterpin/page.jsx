@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import Enterpin from "../../public/enterpin.svg"
+import Enterpin from "../../app/assets/enterpin.svg"
 import OTPInput, { Context } from "@/components/client";
 import { useContext } from "react";
 import { useRouter } from "next/navigation";
